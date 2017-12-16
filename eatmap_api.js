@@ -1,5 +1,5 @@
 function initMap() {
-	var Amsterdam = {lat: 52.370, lng: 4.895};
+	var Amsterdam = {lat: 52.3653, lng: 4.9024};
 
 	var map = new google.maps.Map(document.getElementById('map'), {
 		zoom: 12,
@@ -7,6 +7,9 @@ function initMap() {
 	});
 
 var locations = [
+	['Gs Really Nice Place', 52.380704, 4.884483, 8],
+	['Bakers & Roasters', 52.3573, 4.8899, 7],
+	['Staring at Jacob', 52.3622, 4.8620, 6],
 	['Lavinia', 52.3631, 4.8898, 5],
 	['Juice to Boost', 52.3659, 4.8949, 4],
 	['ROOTS Amsterdam', 52.3533, 4.8558, 3],
@@ -31,10 +34,5 @@ for (i = 0; i < locations.length; i++) {
 		}
   		})
 	(marker, i));
-    // var marker = new google.maps.Marker({
-    //   position: myLatLng,
-    //   map: map,
-    //   title: 'Hello World!'
-    // });
 };
 };
