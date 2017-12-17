@@ -7,18 +7,10 @@ function initMap() {
 	});
 
 	var locations = [
-		['T Nieuwediep', 52.3620, 4.9502, 12],
-		['Noorderlicht Cafe', 52.3996, 4.8968, 11],
-		['Hannekes Boom', 52.3762, 4.9116, 10],
-		['Roest', 52.3720, 4.9266, 9],
-		['T Eten en Drinken', 52.363910, 4.910622, 8],
-		['Two for Joy', 52.3842, 4.8847, 7],
-		['Lot Sixty One', 52.3668, 4.8703, 6],
-		['Dignita', 52.3659, 4.9038, 5],
-		['Sweet Cup Cafe', 52.3632, 4.8859, 4],
-		['Vinnies', 52.346126, 4.891072, 3],
-		['Quartier Putain', 52.3746, 4.8987, 2],
-		['Toki', 52.382936, 4.885489, 1]
+		['Two for Joy', 52.3842, 4.8847, 4],
+		['Lot Sixty One', 52.3668, 4.8703, 3],
+		['Dignita', 52.3659, 4.9038, 2],
+		['Sweet Cup Cafe', 52.3632, 4.8859, 1],
 		];
 
 	var infowindow = new google.maps.InfoWindow();
