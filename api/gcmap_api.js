@@ -7,12 +7,12 @@ function initMap() {
 	});
 
 	var locations = [
-		['Hutspot', 52.3569, 4.8996, 10],
-		['De 9 straatjes', 52.3702, 4.8861, 9],
-		['Things I like Things I love', 52.370660, 4.853003, 8],
-		['The Darling', 52.3821, 4.8879, 7],
-		['Jutka & Riska', 52.3665, 4.8723, 6],
-		['Marbles Vintage & Design', 52.382585, 4.887506, 5],
+		// ['Hutspot', 52.3569, 4.8996, 10],
+		// ['De 9 straatjes', 52.3702, 4.8861, 9],
+		// ['Things I like Things I love', 52.370660, 4.853003, 8],
+		// ['The Darling', 52.3821, 4.8879, 7],
+		// ['Jutka & Riska', 52.3665, 4.8723, 6],
+		// ['Marbles Vintage & Design', 52.382585, 4.887506, 5],
 		['Athenaeum Boekhandel', 52.368909, 4.889089, 4],
 		['Skins', 52.358573, 4.878648, 3],
 		['Verse', 52.368085, 4.883037, 2],
