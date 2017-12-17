@@ -1,22 +1,21 @@
 
 
-.container {
+.container-fluid {
   position: relative;
-  margin-left: 200px;
+  margin:0;
+  padding:0;
   
 }
-/*Text*/
-.text{
-	color:black;
 
-}
+
 
 /*Image 1*/
 
 .image {
-  display: block;
-  width: 100%;
+ 
+  width: 80%;
   height: auto;
+  /*margin-left: 80px;*/
 }
 
 .overlay{
@@ -54,8 +53,8 @@
 
 /*Image 2*/
 .image2 {
-  display: block;
-  width: 100%;
+
+  width: 80%;
   height: auto;
 }
 
@@ -94,8 +93,8 @@
 
 /*Image 3*/
 .image3 {
-  display: block;
-  width: 100%;
+  
+  width: 80%;
   height: auto;
 }
 
@@ -134,9 +133,10 @@
 
 /*Image 4*/
 .image4 {
-  display: block;
-  width: 100%;
+
+  width: 80%;
   height: auto;
+
 }
 
 .overlay4{
@@ -171,3 +171,21 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
+/*Middle content with text*/
+
+.full{
+
+  background-color: #343a40;
+
+}
+
+h2{
+  color: whitesmoke;
+}
+
+.text{
+  color:whitesmoke;
+
+}
+

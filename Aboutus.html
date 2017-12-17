@@ -5,62 +5,113 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--JQuery-->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+    <!--<script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>-->
     <!-- Bootstrap CSS -->
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->r
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <!--CSS-->
     <link href="about.css" type="text/css" rel="stylesheet">
+    <link href="styles.css" type="text/css" rel="stylesheet">
 </head>
-<body><br>
-	<div class="container">
-		<div class="row">
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html"><img src="logo.png" height="50" width="50"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Eat</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Drink</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Cultural</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Get Creative</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav> <br> <br>
+	<div class="container-fluid">
+		<div class="row d-flex flex-md-nowrap">
 			<div class="image">
-				<div class="col-md-2">
-					<img src="mathilde.png" class="img-responsive" alt="">
+				<div class="col-md-6 offset-md-3">
+					<img src="mathilde.png" class="img-fluid " alt="" height="200" width="200">
 					<div class="overlay">
 	    				<div class="us">Mathilde</div>
 	  				</div>
 				</div>	
 			</div>
 			<div class="image2">
-				<div class="col-md-2">
-					<img src="Sam.png" class="img-responsive" alt="">
+				<div class="col-md-6 offset-md-2">
+					<img src="Sam.png" class="img-fluid" alt="" height="200" width="200">
 					<div class="overlay2">
 	    				<div class="us2">Samantha</div>
 	  				</div>
 				</div>
 			</div>
 			<div class="image3">
-				<div class="col-md-2">
-					<img src="Marti.png" class="img-responsive" alt="">
+				<div class="col-md-6 offset-md-2">
+					<img src="Marti.png" class="img-fluid" alt="" height="200" width="200">
 					<div class="overlay3">
 	    				<div class="us3">Martina</div>
 	  				</div>
 				</div>
 			</div>
 			<div class="image4">
-				<div class="col-md-2">
-					<img src="Marti.png" class="img-responsive" alt="">
+				<div class="col-md-6 offset-md-1">
+					<img src="Myrthe.png" class="img-fluid" alt="" height="200" width="200">
 					<div class="overlay4">
 	    				<div class="us4">Myrthe</div>
 	  				</div>
 				</div>
 			</div>
-		</div><br> <br>
-		<div class="row">
-			<div class="col-md-6 col-md-push-2">
-				<h2>PowerPuffGirls Team</h2>
-			</div>
-		</div><br>
-		<div class="row">
-			<div class="col-md-5 col-md-push-2"
-				<p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem</p>
-			</div>
-		</div><!--row-->
-	</div><!--container-->
-	<script>
-		
-	</script>
+		</div><br> <br> <br>
+		<div class="full">
+			<div class="row d-flex justify-content-center">
+				<div class="col-md-4"><br>
+					<h2>The PowerPuff Girls</h2>
+				</div>
+			</div><br>
+			<div class="row d-flex justify-content-center">
+				<div class="col-md-10">
+					<p class="text">It all started two months ago... Would you believe we started out with no knowledge in coding? We are a team of front-end developers that went through an amazing experience: a coding bootcamp. Now, we know the basis of coding and are able to build a website. Visiting and discover Amsterdam is an activity we love to do and through this website, we would like to share with you the best spots we discovered! </p><br>
+				</div>
+			</div><!--row-->
+	</div> <br> <br><!--container-->
+	<div class="container">
+		<h3>Get In Touch With Us</h3>
+		<p>So many reasons to get in touch! Just a friendly e-mail, a request to work together, to get tips about Amsterdam. </p>
+		<p>Please fill in the form below to contact us and get a fast answer!</p>
+		<form>
+		  <div class="form-group">
+		    <label class="col-form-label" for="formGroupName">Name</label>
+		    <input type="text" class="form-control" id="formGroupName" placeholder="Name">
+			<label for="exampleInputEmail1">Email address</label>
+		    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+		    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> 
+		    <label class="col-form-label" for="formGroupSubject">Subject</label>
+		    <input type="text" class="form-control" id="formGroupSubject" placeholder="What is your message about?">
+		    <label for="comment">Message</label>
+  			<textarea class="form-control" rows="5" id="message" placeholder="Type your message"></textarea>
+		  </div>
+		 <button type="button" class="btn btn-outline-dark">Submit</button>
+		</form>
+	</div><br>
 </body>
 </html>
