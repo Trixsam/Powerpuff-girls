@@ -31,6 +31,10 @@
   margin: 50px 0 50px 0;
 }
 
+.icons a:hover {
+  text-decoration: none;
+}
+
 svg {
   max-height: 72px;
   border-radius: 50%;
@@ -45,13 +49,37 @@ svg {
   margin: -50px 0 50px 170px;
 }
 
-a:link {
-  color:#666666;
-  text-decoration:none;
+.filter1 a {
+  margin-left: 18px;
+  color: black;
+  text-decoration: none;
 }
 
-a:hover {
-  text-decoration : none;
+.filter2 a {
+  margin-left: 25px;
+  color: black;
+  text-decoration: none;
+}
+
+.filter a {
+  margin-left: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+.filter1 a:hover {
+  text-decoration: none;
+  color: hotpink;
+}
+
+.filter2 a:hover {
+  text-decoration: none;
+  color: hotpink;
+}
+
+.filter a:hover {
+  text-decoration: none;
+  color: hotpink;
 }
 
 .filter1 {
@@ -76,18 +104,7 @@ a:hover {
     border: 1px solid #262626;
 }
 
-.filter3 {
-    padding: 10px 10px 10px 10px;
-    background-color: #e7e8e9;
-    list-style: none;
-    display: inline-flex;
-    width: 10%;
-    height: auto;
-    margin: 0 0 30px 80px;
-    border: 1px solid #262626;
-}
-
-.filter4 {
+.filter {
     padding: 10px 10px 10px 10px;
     background-color: #e7e8e9;
     list-style: none;
@@ -224,6 +241,10 @@ a:hover {
 .container .modal-content {
     height:auto;
     min-width: 768px;
+}
+
+.modal.fade {
+    margin-right: 20%;
 }
 
 /* Footer */
