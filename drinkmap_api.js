@@ -7,14 +7,21 @@ function initMap() {
 	});
 
 	var locations = [
-		['Gs Really Nice Place', 52.380704, 4.884483, 8],
-		['Bakers & Roasters', 52.3573, 4.8899, 7],
-		['Staring at Jacob', 52.3622, 4.8620, 6],
-		['Lavinia', 52.3631, 4.8898, 5],
-		['Juice to Boost', 52.3659, 4.8949, 4],
-		['ROOTS Amsterdam', 52.3533, 4.8558, 3],
-		['Pluk Amsterdam', 52.372310,  4.883744, 2],
-		['The Meets', 52.3512, 4.8918, 1]
+		['Pacific Parc', 52.3860, 4.8714, 15],
+		['De Nieuwe Anita', 52.3742, 4.8727, 14],
+		["Butcher's Tears", 52.3472, 4.8535, 13],
+		['Worst Wijncafe', 52.3888, 4.8877, 12],
+		['Hiding in Plain Sight', 52.3717, 4.9077, 11],
+		['Cafe Ruk & Pluk', 52.357434, 4.926673, 10],
+		['Eddy Cafe Bar', 52.3554, 4.8908, 9],
+		['Bar Bukowski', 52.3579, 4.9177, 8],
+		['Cafe Kostverloren', 52.3663, 4.8619, 7],
+		['The Butcher', 52.355453, 4.892278, 6],
+		['Cafe Nol', 52.3783, 4.8835, 5],
+		['Claire', 52.366527, 4.896697, 4],
+		['Cafe de Heuvel', 52.3625, 4.8880, 3],
+		['De School', 52.370100, 4.843592, 2],
+		['Cafe de Wetering', 52.361234, 4.888873, 1]
 		];
 
 	var infowindow = new google.maps.InfoWindow();

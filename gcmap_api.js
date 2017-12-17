@@ -7,14 +7,16 @@ function initMap() {
 	});
 
 	var locations = [
-		['Gs Really Nice Place', 52.380704, 4.884483, 8],
-		['Bakers & Roasters', 52.3573, 4.8899, 7],
-		['Staring at Jacob', 52.3622, 4.8620, 6],
-		['Lavinia', 52.3631, 4.8898, 5],
-		['Juice to Boost', 52.3659, 4.8949, 4],
-		['ROOTS Amsterdam', 52.3533, 4.8558, 3],
-		['Pluk Amsterdam', 52.372310,  4.883744, 2],
-		['The Meets', 52.3512, 4.8918, 1]
+		['Hutspot', 52.3569, 4.8996, 10],
+		['De 9 straatjes', 52.3702, 4.8861, 9],
+		['Things I like Things I love', 52.370660, 4.853003, 8],
+		['The Darling', 52.3821, 4.8879, 7],
+		['Jutka & Riska', 52.3665, 4.8723, 6],
+		['Marbles Vintage & Design', 52.382585, 4.887506, 5],
+		['Athenaeum Boekhandel', 52.368909, 4.889089, 4],
+		['Skins', 52.358573, 4.878648, 3],
+		['Verse', 52.368085, 4.883037, 2],
+		['The Port Game', 52.3976, 4.8725, 1]
 		];
 
 	var infowindow = new google.maps.InfoWindow();

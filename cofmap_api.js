@@ -7,14 +7,18 @@ function initMap() {
 	});
 
 	var locations = [
-		['Gs Really Nice Place', 52.380704, 4.884483, 8],
-		['Bakers & Roasters', 52.3573, 4.8899, 7],
-		['Staring at Jacob', 52.3622, 4.8620, 6],
-		['Lavinia', 52.3631, 4.8898, 5],
-		['Juice to Boost', 52.3659, 4.8949, 4],
-		['ROOTS Amsterdam', 52.3533, 4.8558, 3],
-		['Pluk Amsterdam', 52.372310,  4.883744, 2],
-		['The Meets', 52.3512, 4.8918, 1]
+		['T Nieuwediep', 52.3620, 4.9502, 12],
+		['Noorderlicht Cafe', 52.3996, 4.8968, 11],
+		['Hannekes Boom', 52.3762, 4.9116, 10],
+		['Roest', 52.3720, 4.9266, 9],
+		['T Eten en Drinken', 52.363910, 4.910622, 8],
+		['Two for Joy', 52.3842, 4.8847, 7],
+		['Lot Sixty One', 52.3668, 4.8703, 6],
+		['Dignita', 52.3659, 4.9038, 5],
+		['Sweet Cup Cafe', 52.3632, 4.8859, 4],
+		['Vinnies', 52.346126, 4.891072, 3],
+		['Quartier Putain', 52.3746, 4.8987, 2],
+		['Toki', 52.382936, 4.885489, 1]
 		];
 
 	var infowindow = new google.maps.InfoWindow();
